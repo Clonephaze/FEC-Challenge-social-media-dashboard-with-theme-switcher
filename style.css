@@ -30,7 +30,7 @@
     --content-max-width: 70vw;
 
     @media (min-width: 481px) and (max-width: 1807px) {
-        --content-max-width: 80vw;
+        --content-max-width: 90vw;
     }
 
     @media screen and (max-width: 480px) {
