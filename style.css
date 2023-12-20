@@ -27,7 +27,11 @@
     --small-width: (max-width: 480px);
     --medium-width: (min-width: 481px) and (max-width: 961px);
 
-    --content-max-width: 70%;
+    --content-max-width: 70vw;
+
+    @media (min-width: 481px) and (max-width: 1807px) {
+        --content-max-width: 80vw;
+    }
 
     @media screen and (max-width: 480px) {
         --content-max-width: 90%;
