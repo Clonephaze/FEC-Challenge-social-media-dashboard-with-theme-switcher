@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
+    <html lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -14,136 +14,135 @@
         <div class="nav-content">
             <div class="intro">
                 <h1>Social Media Dashboard</h1>
-                <h5>Total Followers: 23,004</h5>
+                <h2>Total Followers: 23,004</h2>
             </div>
             <hr>
             <div class="theme-toggle">
                 <div class="toggle-label">Dark Mode</div>
                 <label for="DarkModeToggle" class="switch">
-                    <input type="checkbox" id="DarkModeToggle" onclick="toggleDarkMode()">
+                    <input type="checkbox" id="DarkModeToggle" onclick="toggleDarkMode()" aria-label="Dark Mode Switch">
                     <span class="slider"></span>
                 </label>
             </div>
         </div>
-    </nav>
-    <div class="large-card-container">
-        <div class="large-card">
-            <div class="social-title"><img src="images/icon-facebook.svg" alt="Facebook Logo"> @nathanf</div>
-            <div class="total-count">1987</div>
-            <div class="count-name">Followers</div>
-            <div class="small-count count-positive">12 Today</div>
-        </div>
-        <div class="large-card">
-            <div class="social-title"><img src="images/icon-twitter.svg" alt=""> @nathanf</div>
-            <div class="total-count">1044</div>
-            <div class="count-name">Followers</div>
-            <div class="small-count count-positive">99 Today</div>
-        </div>
-        <div class="large-card">
-            <div class="social-title"><img src="images/icon-instagram.svg" alt=""> @realnathanf</div>
-            <div class="total-count">11k</div>
-            <div class="count-name">Followers</div>
-            <div class="small-count count-positive">1099 Today</div>
-        </div>
-        <div class="large-card">
-            <div class="social-title"><img src="images/icon-youtube.svg" alt=""> Nathan F.</div>
-            <div class="total-count">8239</div>
-            <div class="count-name">Subscribers</div>
-            <div class="small-count count-negative">144 Today</div>
-        </div>
-    </div>
-
-    <div class="section-title">
-        <h1>Overview - Today</h1>
-    </div>
-
-    <div class="small-card-container">
-        <div class="small-card">
-            <div class="top">
-                <div class="title">Page Views</div>
-                <img src="images/icon-facebook.svg" alt="">
+    </nav><main>
+        
+        <div class="large-card-container">
+            <div class="large-card">
+                <div class="social-title"><img src="images/icon-facebook.svg" alt="Facebook Logo"> @nathanf</div>
+                <div class="total-count">1987</div>
+                <div class="count-name">Followers</div>
+                <div class="small-count count-positive">12 Today</div>
             </div>
-            <div class="bottom">
-                <div class="count">87</div>
-                <div class="small-count count-positive">3%</div>
+            <div class="large-card">
+                <div class="social-title"><img src="images/icon-twitter.svg" alt=""> @nathanf</div>
+                <div class="total-count">1044</div>
+                <div class="count-name">Followers</div>
+                <div class="small-count count-positive">99 Today</div>
+            </div>
+            <div class="large-card">
+                <div class="social-title"><img src="images/icon-instagram.svg" alt=""> @realnathanf</div>
+                <div class="total-count">11k</div>
+                <div class="count-name">Followers</div>
+                <div class="small-count count-positive">1099 Today</div>
+            </div>
+            <div class="large-card">
+                <div class="social-title"><img src="images/icon-youtube.svg" alt=""> Nathan F.</div>
+                <div class="total-count">8239</div>
+                <div class="count-name">Subscribers</div>
+                <div class="small-count count-negative">144 Today</div>
             </div>
         </div>
-        <div class="small-card">
-            <div class="top">
-                <div class="title">Likes</div>
-                <img src="images/icon-facebook.svg" alt="">
+        <div class="section-title">
+            <h1>Overview - Today</h1>
+        </div>
+        <div class="small-card-container">
+            <div class="small-card">
+                <div class="top">
+                    <div class="title">Page Views</div>
+                    <img src="images/icon-facebook.svg" alt="">
+                </div>
+                <div class="bottom">
+                    <div class="count">87</div>
+                    <div class="small-count count-positive">3%</div>
+                </div>
             </div>
-            <div class="bottom">
-                <div class="count">52</div>
-                <div class="small-count count-negative">2%</div>
+            <div class="small-card">
+                <div class="top">
+                    <div class="title">Likes</div>
+                    <img src="images/icon-facebook.svg" alt="">
+                </div>
+                <div class="bottom">
+                    <div class="count">52</div>
+                    <div class="small-count count-negative">2%</div>
+                </div>
+            </div>
+            <div class="small-card">
+                <div class="top">
+                    <div class="title">Likes</div>
+                    <img src="images/icon-instagram.svg" alt="">
+                </div>
+                <div class="bottom">
+                    <div class="count">5462</div>
+                    <div class="small-count count-positive">2257%</div>
+                </div>
+            </div>
+            <div class="small-card">
+                <div class="top">
+                    <div class="title">Profile Views</div>
+                    <img src="images/icon-instagram.svg" alt="">
+                </div>
+                <div class="bottom">
+                    <div class="count">52k</div>
+                    <div class="small-count count-positive">1375%</div>
+                </div>
+            </div>
+            <div class="small-card">
+                <div class="top">
+                    <div class="title">Retweets</div>
+                    <img src="images/icon-twitter.svg" alt="">
+                </div>
+                <div class="bottom">
+                    <div class="count">117</div>
+                    <div class="small-count count-positive">303%</div>
+                </div>
+            </div>
+            <div class="small-card">
+                <div class="top">
+                    <div class="title">Likes</div>
+                    <img src="images/icon-twitter.svg" alt="">
+                </div>
+                <div class="bottom">
+                    <div class="count">507</div>
+                    <div class="small-count count-positive">553%</div>
+                </div>
+            </div>
+            <div class="small-card">
+                <div class="top">
+                    <div class="title">Likes</div>
+                    <img src="images/icon-youtube.svg" alt="">
+                </div>
+                <div class="bottom">
+                    <div class="count">107</div>
+                    <div class="small-count count-negative">19%</div>
+                </div>
+            </div>
+            <div class="small-card">
+                <div class="top">
+                    <div class="title">Total Views</div>
+                    <img src="images/icon-youtube.svg" alt="">
+                </div>
+                <div class="bottom">
+                    <div class="count">1407</div>
+                    <div class="small-count count-positive">12%</div>
+                </div>
             </div>
         </div>
-        <div class="small-card">
-            <div class="top">
-                <div class="title">Likes</div>
-                <img src="images/icon-instagram.svg" alt="">
-            </div>
-            <div class="bottom">
-                <div class="count">5462</div>
-                <div class="small-count count-positive">2257%</div>
-            </div>
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="https://github.com/Clonephaze">Clonephaze</a>.
         </div>
-        <div class="small-card">
-            <div class="top">
-                <div class="title">Profile Views</div>
-                <img src="images/icon-instagram.svg" alt="">
-            </div>
-            <div class="bottom">
-                <div class="count">52k</div>
-                <div class="small-count count-positive">1375%</div>
-            </div>
-        </div>
-        <div class="small-card">
-            <div class="top">
-                <div class="title">Retweets</div>
-                <img src="images/icon-twitter.svg" alt="">
-            </div>
-            <div class="bottom">
-                <div class="count">117</div>
-                <div class="small-count count-positive">303%</div>
-            </div>
-        </div>
-        <div class="small-card">
-            <div class="top">
-                <div class="title">Likes</div>
-                <img src="images/icon-twitter.svg" alt="">
-            </div>
-            <div class="bottom">
-                <div class="count">507</div>
-                <div class="small-count count-positive">553%</div>
-            </div>
-        </div>
-        <div class="small-card">
-            <div class="top">
-                <div class="title">Likes</div>
-                <img src="images/icon-youtube.svg" alt="">
-            </div>
-            <div class="bottom">
-                <div class="count">107</div>
-                <div class="small-count count-negative">19%</div>
-            </div>
-        </div>
-        <div class="small-card">
-            <div class="top">
-                <div class="title">Total Views</div>
-                <img src="images/icon-youtube.svg" alt="">
-            </div>
-            <div class="bottom">
-                <div class="count">1407</div>
-                <div class="small-count count-positive">12%</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="https://github.com/Clonephaze">Clonephaze</a>.
-    </div>
+    </main>
     <script src="DarkModeToggle.js"></script>
 </body>
 </html>
